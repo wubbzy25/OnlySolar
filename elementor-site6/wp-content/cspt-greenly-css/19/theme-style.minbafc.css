@@ -1,0 +1,1870 @@
+:root {
+    --cspt-greenly-global-color: #7cba27;
+    --cspt-greenly-secondary-color: #fdc71b;
+    --cspt-greenly-gradient-color-first: #7cba27;
+    --cspt-greenly-gradient-color-last: #5a8527;
+    --cspt-greenly-logo-height: 55px;
+    --cspt-greenly-sticky-logo-height: 55px;
+    --cspt-greenly-responsive-logo-height: 55px;
+    --cspt-greenly-link-color-normal: #0e2f44;
+    --cspt-greenly-link-color-hover: #7cba27;
+    --cspt-greenly-responsive-breakpoint: 1200px;
+    --cspt-greenly-white-color: #fff;
+    --cspt-greenly-blackish-color: #0e2f44;
+    --cspt-greenly-light-bg-color: #f1f9fe;
+    --cspt-greenly-blackish-bg-color: #0e2f44;
+    --cspt-greenly-preheader-bgcolor-custom: #86bb46;
+    --cspt-greenly-header-height: 120px;
+    --cspt-greenly-header-background-color: #fff;
+    --cspt-greenly-menu-background-color: #fff;
+    --cspt-greenly-sticky-header-height: 90px;
+    --cspt-greenly-sticky-header-background-color: #fff;
+    --cspt-greenly-main-menu-typography-font-family: Quicksand;
+    --cspt-greenly-main-menu-typography-variant: 700;
+    --cspt-greenly-main-menu-typography-font-size: 16px;
+    --cspt-greenly-main-menu-typography-line-height: 20px;
+    --cspt-greenly-main-menu-typography-letter-spacing: 0;
+    --cspt-greenly-main-menu-typography-color: #0e2f44;
+    --cspt-greenly-main-menu-typography-text-transform: capitalize;
+    --cspt-greenly-main-menu-typography-font-style: normal;
+    --cspt-greenly-main-menu-typography-font-weight: 700;
+    --cspt-greenly-main-menu-sticky-color: #0e2f44;
+    --cspt-greenly-titlebar-height: 350px;
+    --cspt-greenly-footer-1-col-width: 32%;
+    --cspt-greenly-footer-2-col-width: 28%;
+    --cspt-greenly-footer-3-col-width: 40%;
+    --cspt-greenly-footer-4-col-width: 25%;
+    --cspt-greenly-global-color-rgb: 124, 186, 39;
+    --cspt-greenly-secondary-color-rgb: 253, 199, 27;
+    --cspt-greenly-white-color-rgb: 255, 255, 255;
+    --cspt-greenly-blackish-color-rgb: 14, 47, 68;
+    --cspt-greenly-light-bg-color-rgb: 241, 249, 254;
+    --cspt-greenly-blackish-bg-color-rgb: 14, 47, 68;
+    --cspt-greenly-main-menu-typography-color-rgb: 14, 47, 68
+}
+
+.cspt-navbar ul ul,
+.cspt-navbar ul ul:before {
+    background-color: #f6f6f6;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll
+}
+
+.cspt-title-bar-wrapper,
+.cspt-title-bar-wrapper.cspt-bg-color-custom:before {
+    background-color: #eee;
+    background-image: url(../../uploads/sites/19/2022/03/title-bg-new.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: scroll
+}
+
+.site-footer,
+.site-footer.cspt-bg-color-custom:before {
+    background-color: #222;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll
+}
+
+.cspt-footer-widget-area,
+.cspt-footer-widget-area.cspt-bg-color-custom:before {
+    background-color: #969696;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll
+}
+
+.cspt-footer-text-area,
+.cspt-footer-text-area.cspt-bg-color-custom:before {
+    background-color: #0b2738;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll
+}
+
+body {
+    font-family: DM Sans, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #787c8b;
+    text-transform: none;
+    font-style: normal
+}
+
+h1 {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+h2 {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+h3 {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+h4 {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+h5 {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+h6 {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+.cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-heading .vc_custom_heading,
+.cspt-heading-subheading .cspt-element-title {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+.cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-subheading .vc_custom_heading,
+.cspt-heading-subheading .cspt-element-subtitle {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    color: #080337;
+    text-transform: uppercase;
+    font-style: normal
+}
+
+.cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-content {
+    font-family: DM Sans, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: #787c8b;
+    text-transform: none;
+    font-style: normal
+}
+
+.creativesplanet-sidebar .widget_search .wp-block-search__label,
+.creativesplanet-sidebar .widget_block .wp-block-group h2,
+.widget-title {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+.vc_general.vc_btn3,
+.cspt-ihbox-btn a,
+.elementor-button {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-style: normal
+}
+
+.cspt-no-elem-1,
+.cspt-progress-stlye-1,
+.cspt-header-style-6 .creativesplanet-header-button,
+.cspt-ihbox-style-10 .cspt-ihbox-headingicon .cspt-ihbox-box-number,
+.cspt-blogbox-style-7 .post-item .cspt-meta-date span,
+.elementor-icon-list--layout-traditional.cspt-marquestyle-02 ul li,
+.elementor-icon-list--layout-traditional.cspt-marquestyle-01 ul li,
+.creativesplanet-ul-list.cspt-marquestyle-01 ul li,
+.creativesplanet-ul-list.cspt-marquestyle-02 ul li {
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    font-style: normal
+}
+
+.cspt-no-elem-2,
+.creativesplanet-ele-fid-style-5 .cspt-fid-title,
+.creativesplanet-ele-fid-style-6 .cspt-fid-title,
+.cspt-service-style-4 .cspt-service-category,
+.cspt-tab-style1 .elementor-tab-title,
+.cspt-footer-style-3 .cspt-footer-mailchip button,
+.cspt-header-style-7 .cspt-right-box .cspt-header-button2 a,
+.cspt-header-style-8 .cspt-right-box .cspt-header-button2 .cspt-header-button2-text,
+.cspt-header-style-8 .cspt-right-box .cspt-header-button a,
+.cspt-tab-style1.vc_tta.vc_general .vc_tta-tab>a {
+    font-family: DM Sans, sans-serif;
+    font-weight: normal;
+    font-style: normal
+}
+
+.cspt-no-elem-3,
+.cspt-service-style-6 .cspt-service-wrap .cspt-service-cat,
+.cspt-testimonial-style-8 span.cspt-designation,
+.cspt-blogbox-style-6 .cspt-meta-container .cspt-meta-line a,
+.cspt-blogbox-style-6 .cspt-meta-container .cspt-meta-line,
+.cspt-blogbox-style-7 .cspt-meta-category a,
+.cspt-team-style-4 .creativesplanet-box-team-position,
+.cspt-testimonial-style-7 span.cspt-designation {
+    font-family: Playfair Display, sans-serif;
+    font-weight: 500;
+    font-style: normal
+}
+
+.cspt-header-box-title {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #222;
+    text-transform: none;
+    font-style: normal
+}
+
+.cspt-header-box-content {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: #777777;
+    text-transform: none;
+    font-style: normal
+}
+
+.cspt-navbar div>ul>li>a {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #0e2f44;
+    text-transform: capitalize;
+    font-style: normal
+}
+
+.cspt-navbar ul ul a {
+    font-family: DM Sans, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+.cspt-tbar-title {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+.cspt-tbar-subtitle {
+    font-family: DM Sans, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+.cspt-breadcrumb,
+.cspt-breadcrumb a {
+    font-family: DM Sans, sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #080337;
+    text-transform: none;
+    font-style: normal
+}
+
+.cspt-pre-header-wrapper.cspt-bg-color-custom {
+    background-color: var(--cspt-greenly-preheader-bgcolor-custom)
+}
+
+.cspt-header-wrapper.cspt-bg-color-custom {
+    background-color: var(--cspt-greenly-header-background-color)
+}
+
+.cspt-header-menu-area.cspt-bg-color-custom {
+    background-color: var(--cspt-greenly-menu-background-color)
+}
+
+.cspt-sticky-header.cspt-sticky-bg-color-custom {
+    background-color: var(--cspt-greenly-sticky-header-background-color)
+}
+
+.cspt-sticky-header .cspt-navbar div>ul>li>a {
+    color: var(--cspt-greenly-main-menu-sticky-color)
+}
+
+a {
+    color: var(--cspt-greenly-link-color-normal)
+}
+
+a:hover {
+    color: var(--cspt-greenly-link-color-hover)
+}
+
+.cspt-title-bar-content,
+.cspt-title-bar-wrapper {
+    min-height: var(--cspt-greenly-titlebar-height)
+}
+
+.cspt-color-globalcolor,
+.vc_icon_element-color-globalcolor,
+.cspt-globalcolor,
+.globalcolor {
+    color: var(--cspt-greenly-global-color)
+}
+
+.cspt-bg-color-globalcolor.cspt-title-bar-wrapper:before,
+.creativesplanet-ele-team .creativesplanet-overlay {
+    background: rgba(var(--cspt-greenly-global-color-rgb), .50)
+}
+
+.vc_icon_element.vc_icon_element-outer.cspt-lightbox-video .vc_icon_element-inner.vc_icon_element-size-lg .vc_icon_element-icon,
+.site-footer.cspt-color-white .cspt-footer-menu-area a:hover,
+.cspt-title-bar-content .cspt-breadcrumb a:hover,
+.vc_btn3-container .vc_general.vc_btn3.vc_btn3-color-gradientcolor.vc_btn3-style-outline,
+.cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-subheading .cspt-skincolor,
+.cspt-skincolor,
+.cspt-blog-classic .cspt-read-more-btn a:hover,
+.cspt-blog-meta .cspt-meta-classic-right .cspt-meta a:hover,
+.greenly_recent_posts_widget .cspt-rpw-content .cspt-rpw-title a:hover,
+.cspt-blog-classic .cspt-post-title a:hover,
+.cspt-search-results-right .cspt-post-title a:hover,
+.cspt-metabox .widgettitle,
+.error-404:after,
+.cspt-contact-box .cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-heading *,
+.cspt-addressbox,
+.greenly_recent_posts_widget .cspt-rpw-content .cspt-rpw-date a,
+.cspt-portfolio-line-li:before,
+.post-navigation .nav-links a:hover,
+.cspt-footer-menu li a:hover,
+.reply a,
+.widget a:hover,
+.site-footer .widget_recent_entries ul li span,
+.cspt-blog-meta a:hover,
+.cspt-blog-classic .entry-title a:hover,
+.cspt-blog-meta .cspt-meta-author:before,
+.cspt-blog-meta .cspt-meta-date:before,
+.cspt-blog-meta .cspt-meta-cat:before,
+.cspt-blog-meta .cspt-meta-comments:before,
+.cspt-blog-meta .cspt-meta-tags:before,
+.cspt-address-con strong {
+    color: var(--cspt-greenly-global-color)
+}
+
+.cspt-testimonial-style-6:after,
+.vc_btn3-color-globalcolor.vc_general.vc_btn3,
+.cspt-sortable-list a.cspt-selected,
+.scroll-to-top,
+.single-cspt-team-member .cspt-featured-wrapper:after,
+.cspt-img-bg-effect-single .vc_single_image-wrapper:after,
+.cspt-img-bg-effect .vc_single_image-wrapper:after,
+.cspt-img-bg-effect .vc_single_image-wrapper:before,
+.creativesplanet-element-viewtype-carousel .owl-carousel button.owl-dot.active,
+.cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-subheading h4:after,
+.widget .download .item-download:first-child,
+.cspt-service-style-1 .cspt-service-icon-wrapper,
+.error404 .site-content-contain,
+.post.sticky,
+.nav-links .page-numbers.current,
+.nav-links .page-numbers:hover,
+.cspt-sep-heading:after,
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-outline:focus,
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-outline:hover,
+.post-navigation .nav-links a:hover .cspt-portfolio-nav-icon,
+.post-navigation .nav-links .cspt-prev-title:hover,
+.post-navigation .nav-links .cspt-next-title:hover,
+.footer-wrap .footer-social li a:hover,
+.footer-wrap .widget_tag_cloud a:hover,
+.footer-wrap .mc4wp-form .btn,
+.creativesplanet-testimonial-tooltip-show-hide .creativesplanet-testimonial-tooltip,
+.wpb-js-composer .vc_tta-color-globalcolor.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading,
+.vc_progress_bar.vc_progress-bar-color-globalcolor .vc_single_bar .vc_bar {
+    background-color: var(--cspt-greenly-global-color)
+}
+
+.wpb-js-composer .vc_tta-color-globalcolor.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading,
+.wpb-js-composer .vc_tta.vc_general.cspt-faq .vc_tta-panel.vc_active .vc_tta-controls-icon.vc_tta-controls-icon-triangle::before,
+input:focus,
+select:focus,
+textarea:focus,
+blockquote,
+.cspt-pricing-table-style-4 .cspt-pricing-table-featured-col .cspt-pricing-table-box {
+    border-color: var(--cspt-greenly-global-color)
+}
+
+.cspt-sortable-list a.cspt-selected,
+.vc_icon_element.vc_icon_element-outer.cspt-lightbox-video .vc_icon_element-inner {
+    border-color: var(--cspt-greenly-global-color)
+}
+
+.main-form [type=text]::placeholder,
+.main-form input[type=email]::placeholder,
+.main-form input[type=password]::placeholder,
+.main-form input[type=tel]::placeholder,
+.main-form input[type=url]::placeholder,
+.main-form select::placeholder,
+.main-form textarea::placeholder {
+    color: var(--cspt-greenly-global-color);
+    opacity: 1
+}
+
+.main-form [type=text]:-ms-input-placeholder {
+    color: var(--cspt-greenly-global-color)
+}
+
+.main-form [type=text]::-ms-input-placeholde {
+    color: var(--cspt-greenly-global-color)
+}
+
+.site-title {
+    height: var(--cspt-greenly-header-height)
+}
+
+.site-title img.cspt-main-logo {
+    max-height: var(--cspt-greenly-logo-height)
+}
+
+.site-header .cspt-bg-color-globalcolor,
+.site-header .cspt-sticky-header.cspt-sticky-bg-color-globalcolor {
+    background-color: var(--cspt-greenly-global-color)
+}
+
+.site-header .cspt-bg-color-secondarycolor,
+.site-header .cspt-sticky-header.cspt-sticky-bg-color-secondarycolor {
+    background-color: var(--cspt-greenly-secondary-color)
+}
+
+.site-header .sticky-header-bgcolorblackish,
+.site-header .cspt-sticky-header.cspt-sticky-bg-color-blackish {
+    background-color: var(--cspt-greenly-blackish-color)
+}
+
+.site-header .sticky-header-bgcolorlight,
+.site-header .cspt-sticky-header.cspt-sticky-bg-color-light {
+    background-color: var(--cspt-greenly-light-bg-color)
+}
+
+.vc_btn3.vc_btn3-color-black.vc_btn3-style-modern:hover,
+.cspt-full-btn .vc_btn3 .vc_btn3-icon,
+.page-links a:hover,
+.page-links>span,
+.cspt-page-links a:hover,
+.cspt-page-links>span,
+input[type=submit]:hover,
+a.cspt-link:after,
+.cspt-search-results-right .cspt-read-more-link a:after,
+.cspt-blog-classic-inner .cspt-read-more-link a:after,
+.cspt-team-single .cspt-team-social-links a:hover,
+.site-footer .widget-title:after,
+.cspt-blog-classic .cspt-meta-cat a,
+.cspt-text-color-white .cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-subheading h4:after,
+.cspt-row-expand-left .cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-heading,
+.cspt-row-expand-left .cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-heading:after {
+    background-color: var(--cspt-greenly-global-color)
+}
+
+.wpb-js-composer .vc_tta.vc_general.cspt-faq .vc_tta-panel.vc_active .vc_tta-panel-heading {
+    background-color: var(--cspt-greenly-global-color) !important
+}
+
+.cspt-footer-style-2 .cspt-social-links li a:hover i,
+.creativesplanet-element-viewtype-carousel .owl-carousel .owl-nav button:hover:after,
+.cspt-element-service-style-1 .cspt-service-category,
+.cspt-globalcolor {
+    color: var(--cspt-greenly-global-color)
+}
+
+.cspt-ihbox.cspt-ihbox-style-hsbox .cspt-ihbox-heading .vc_custom_heading a,
+.cspt-globalcolor {
+    color: var(--cspt-greenly-global-color) !important
+}
+
+.creativesplanet-element-viewtype-carousel .owl-carousel .owl-nav button:hover,
+.page-links a:hover,
+.page-links>span,
+.cspt-page-links a:hover,
+.cspt-page-links>span {
+    border-color: var(--cspt-greenly-global-color)
+}
+
+.cspt-brdr-btm-effect>.vc_column-inner:before {
+    border-bottom-color: var(--cspt-greenly-global-color)
+}
+
+.widget_product_search .woocommerce-product-search button,
+table.compare-list .add-to-cart td a,
+.woocommerce .wishlist_table td.product-add-to-cart a,
+.woocommerce ul.products li.product .button.compare:hover,
+.woocommerce ul.products li.product .button.yith-wcqv-button:hover,
+.woocommerce ul.products li.product .yith-wcwl-wishlistexistsbrowse a,
+.woocommerce ul.products li.product .yith-wcwl-wishlistaddedbrowse a,
+.woocommerce .woocommerce-error .button:hover,
+.woocommerce .woocommerce-info .button:hover,
+.woocommerce .woocommerce-message .button:hover,
+.woocommerce-page .woocommerce-error .button:hover,
+.woocommerce-page .woocommerce-info .button:hover,
+.woocommerce-page .woocommerce-message .button:hover,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range,
+.woocommerce .widget_shopping_cart .buttons a:not(.wcppec-cart-widget-button),
+.woocommerce.widget_shopping_cart .buttons a:not(.wcppec-cart-widget-button),
+.woocommerce .widget_price_filter .price_slider_amount .button,
+.woocommerce .cart .button,
+.woocommerce .cart input.button,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button,
+.woocommerce div.product form.cart .button,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce ul.products li.product .button {
+    background-color: var(--cspt-greenly-global-color)
+}
+
+.woocommerce-info,
+.woocommerce-message {
+    border-top-color: var(--cspt-greenly-global-color)
+}
+
+.woocommerce .star-rating span,
+.widget_product_tag_cloud a:hover,
+.single .site-content .summary .product_meta .posted_in a:hover,
+.single .site-content .summary .yith-wcwl-add-to-wishlist a:hover,
+.single .site-content .summary .compare.button:hover {
+    color: var(--cspt-greenly-global-color)
+}
+
+table.compare-list .add-to-cart td a:hover,
+.woocommerce .wishlist_table td.product-add-to-cart a:hover {
+    background-color: var(--cspt-greenly-blackish-bg-color)
+}
+
+.cspt-responsive-icons {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: none
+}
+
+@media (max-width:1200px) {
+    .site-header .cspt-sticky-header {
+        display: none !important
+    }
+
+    .cspt-responsive-on .site-title img.cspt-main-logo,
+    .site-title img.cspt-responsive-logo {
+        max-height: var(--cspt-greenly-responsive-logo-height)
+    }
+
+    .cspt-header-info-inner,
+    .something {
+        display: none
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: unset !important;
+        flex-direction: unset !important
+    }
+
+    .cspt-header-menu-area-inner,
+    .cspt-navbar {
+        display: block !important
+    }
+
+    .nav-menu-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: transparent;
+        padding: 0;
+        font-size: 35px;
+        line-height: 35px;
+        color: #2c2c2c
+    }
+
+    .cspt-navbar>div {
+        background-color: #fff
+    }
+
+    .sub-menu {
+        display: none
+    }
+
+    .cspt-header-menu-area-wrapper {
+        min-height: auto !important
+    }
+
+    .closepanel {
+        position: absolute;
+        z-index: 99;
+        right: 25px;
+        top: 25px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        font-size: 35px;
+        color: var(--cspt-greenly-blackish-color)
+    }
+
+    .admin-bar .closepanel {
+        top: 70px
+    }
+
+    .cspt-mobile-menu-bg {
+        display: block
+    }
+
+    .admin-bar .cspt-responsive-icons {
+        top: 75px
+    }
+
+    .cspt-responsive-icons>div {
+        margin: 0 10px
+    }
+
+    .cspt-responsive-icons>div:first-child {
+        margin-left: 0
+    }
+
+    .cspt-responsive-icons .cspt-cart-wrapper .cspt-cart-count {
+        position: absolute;
+        top: -21px;
+        left: 2px;
+        background-color: var(--cspt-greenly-global-color);
+        color: #fff;
+        line-height: 20px;
+        width: 20px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 13px
+    }
+
+    .cspt-responsive-icons {
+        display: flex;
+        align-items: center
+    }
+
+    .cspt-mobile-menu-bg {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        z-index: 99;
+        background: rgba(0, 0, 0, .90);
+        -webkit-transform: translateX(101%);
+        -ms-transform: translateX(101%);
+        transform: translateX(101%);
+        transition: all 900ms ease;
+        -moz-transition: all 900ms ease;
+        -webkit-transition: all 900ms ease;
+        -ms-transition: all 900ms ease;
+        -o-transition: all 900ms ease;
+        -webkit-transition-delay: 300ms;
+        -moz-transition-delay: 300ms;
+        -ms-transition-delay: 300ms;
+        -o-transition-delay: 300ms;
+        transition-delay: 300ms
+    }
+
+    .active .cspt-mobile-menu-bg {
+        opacity: 1;
+        width: 100%;
+        visibility: visible;
+        transition: all 900ms ease;
+        -moz-transition: all 900ms ease;
+        -webkit-transition: all 900ms ease;
+        -ms-transition: all 900ms ease;
+        -o-transition: all 900ms ease;
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%)
+    }
+
+    .cspt-navbar>div {
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        width: 300px;
+        height: 100%;
+        padding: 0;
+        display: block;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transform: translateX(101%);
+        -ms-transform: translateX(101%);
+        transform: translateX(101%);
+        transition: all 600ms ease;
+        -moz-transition: all 600ms ease;
+        -webkit-transition: all 600ms ease;
+        -ms-transition: all 600ms ease;
+        -o-transition: all 600ms ease
+    }
+
+    .cspt-navbar>div.active {
+        transition: all 600ms ease;
+        -moz-transition: all 600ms ease;
+        -webkit-transition: all 600ms ease;
+        -ms-transition: all 600ms ease;
+        -o-transition: all 600ms ease;
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transition-delay: 300ms;
+        -moz-transition-delay: 300ms;
+        -ms-transition-delay: 300ms;
+        -o-transition-delay: 300ms;
+        transition-delay: 300ms;
+        visibility: visible;
+        opacity: 1;
+        overflow-y: scroll
+    }
+
+    .cspt-navbar>div>ul {
+        padding: 90px 0
+    }
+
+    .admin-bar .cspt-navbar>div>ul {
+        padding-top: 115px !important
+    }
+
+    .cspt-navbar>div>ul li a {
+        color: var(--cspt-greenly-blackish-color) !important;
+        padding: 15px 25px;
+        margin: 0 !important;
+        height: auto;
+        display: inline-block
+    }
+
+    .cspt-navbar>div>ul ul {
+        padding-left: 1em;
+        overflow: hidden;
+        display: none
+    }
+
+    ul .sub-menu.show,
+    ul .children.show {
+        display: block
+    }
+
+    .cspt-navbar li {
+        position: relative
+    }
+
+    .cspt-navbar ul.menu>li {
+        border-bottom: 1px solid rgb(0 0 0 / 6%)
+    }
+
+    .sub-menu-toggle {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer
+    }
+
+    .cspt-navbar ul ul {
+        background-color: transparent !important
+    }
+
+    .cspt-header-search-form-wrapper .search-form {
+        margin: 0 70px
+    }
+
+    .cspt-header-height-wrapper .cspt-responsive-header-bgcolor-blackish .nav-menu-toggle {
+        color: #fff
+    }
+
+    .cspt-header-height-wrapper .cspt-responsive-header-bgcolor-white .nav-menu-toggle {
+        color: #000
+    }
+
+    .cspt-header-button {
+        display: none
+    }
+
+    .site-header .cspt-header-search-btn {
+        margin-right: 50px
+    }
+
+    #masthead.site-header .cspt-header-height-wrapper .cspt-responsive-header-bgcolor-blackish {
+        background-color: #000
+    }
+
+    #masthead.site-header .cspt-header-height-wrapper .cspt-responsive-header-bgcolor-white {
+        background-color: #fff
+    }
+
+    .cspt-responsive-logo-yes .cspt-sticky-logo,
+    .cspt-responsive-logo-yes .cspt-main-logo {
+        display: none
+    }
+
+    .cspt-responsive-logo-yes .cspt-responsive-logo {
+        display: inline-block
+    }
+}
+
+@media (min-width:1201px) {
+    .cspt-responsive-logo {
+        display: none
+    }
+
+    .nav-menu-toggle,
+    .something {
+        display: none
+    }
+
+    .cspt-sticky-header .site-title img.cspt-main-logo,
+    .site-title img.cspt-sticky-logo,
+    .cspt-sep-sticky-logo {
+        max-height: var(--cspt-greenly-sticky-logo-height)
+    }
+
+    .cspt-sticky-header.cspt-header-wrapper {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1)
+    }
+
+    .cspt-navbar>div>ul>li,
+    .cspt-navbar>div>ul>li>a {
+        line-height: var(--cspt-greenly-header-height) !important;
+        height: var(--cspt-greenly-header-height)
+    }
+
+    .cspt-sticky-header .cspt-navbar>div>ul>li,
+    .cspt-sticky-header .cspt-navbar>div>ul>li>a,
+    .cspt-sticky-header .site-title {
+        line-height: var(--cspt-greenly-sticky-header-height) !important;
+        height: var(--cspt-greenly-sticky-header-height)
+    }
+
+    .cspt-navbar ul>li>ul>li.current-menu-item>a,
+    .cspt-navbar ul>li>ul li.current_page_item>a,
+    .cspt-navbar ul>li>ul li.current_page_ancestor>a,
+    .cspt-navbar>div>ul>li:hover>a,
+    .cspt-navbar>div>ul>li.current_page_item>a,
+    .cspt-navbar>div>ul>li.current-menu-parent>a {
+        color: var(--cspt-greenly-global-color)
+    }
+
+    .cspt-navbar ul>li>ul li.current_page_item>a:before,
+    .cspt-navbar ul>li>ul li.current_page_ancestor>a:before,
+    .cspt-navbar ul>li>ul li.current_page_parent>a:before {
+        background-color: var(--cspt-greenly-global-color)
+    }
+
+    .cspt-navbar ul>li>ul li:hover>a {
+        color: #fff !important
+    }
+
+    .cspt-navbar>div>ul {
+        position: relative;
+        z-index: 597
+    }
+
+    .cspt-navbar>div>ul>li {
+        float: left;
+        min-height: 1px;
+        vertical-align: middle;
+        position: relative
+    }
+
+    .cspt-navbar>div>ul ul {
+        visibility: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 598
+    }
+
+    .cspt-navbar ul>li:hover>ul {
+        z-index: 600
+    }
+
+    .cspt-navbar>div>ul li ul.cspt-nav-left {
+        left: inherit;
+        right: 0
+    }
+
+    .cspt-navbar>div>ul li ul ul.cspt-nav-left {
+        left: -100%;
+        right: 0
+    }
+
+    .cspt-navbar>div>ul ul li {
+        float: none
+    }
+
+    .cspt-navbar>div>ul ul ul {
+        top: 0;
+        left: 100%;
+        width: 190px
+    }
+
+    .cspt-navbar>div>ul ul {
+        margin-top: 0
+    }
+
+    .cspt-navbar>div>ul ul li {
+        font-weight: normal
+    }
+
+    .cspt-navbar a {
+        display: block;
+        line-height: 1em;
+        text-decoration: none
+    }
+
+    .cspt-navbar>div>ul ul li:hover>a {
+        background-color: var(--cspt-greenly-global-color)
+    }
+
+    .cspt-navbar>ul {
+        display: inline-block;
+    }
+
+    .cspt-navbar:after,
+    .cspt-navbar ul:after {
+        content: '';
+        display: block;
+        clear: both
+    }
+
+    .cspt-navbar ul {
+        text-transform: uppercase
+    }
+
+    .cspt-navbar ul ul {
+        min-width: 270px;
+        visibility: hidden;
+        -webkit-transition: all .3s linear 0s;
+        transition: all .3s linear 0s;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, .20);
+        border-top: 3px solid var(--cspt-greenly-global-color)
+    }
+
+    .cspt-navbar ul>li:hover>ul {
+        visibility: visible;
+        opacity: 1
+    }
+
+    .cspt-navbar ul ul {
+        min-width: 270px;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all .3s linear 0s;
+        transition: all .3s linear 0s;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, .20);
+        border-top: 3px solid var(--cspt-greenly-global-color)
+    }
+
+    .cspt-navbar ul>li:hover>ul {
+        visibility: visible;
+        opacity: 1
+    }
+
+    .cspt-navbar ul>li>ul>li>a {
+        padding: 15px 30px
+    }
+
+    .cspt-navbar ul>li>ul>li:hover>a {
+        padding-left: 40px
+    }
+
+    .cspt-navbar ul>li>ul>li>a:before {
+        position: absolute;
+        content: '';
+        left: 18px;
+        top: 24px;
+        width: 0;
+        height: 2px;
+        background-color: transparent;
+        -webkit-transition: all .500s ease-in-out;
+        transition: all .500s ease-in-out
+    }
+
+    .cspt-navbar ul>li>ul>li:hover>a:before {
+        background-color: rgba(255, 255, 255, .50);
+        width: 10px
+    }
+
+    .cspt-navbar ul ul a {
+        border-bottom: 1px solid rgba(0, 0, 0, .10);
+        border-top: 0 none;
+        line-height: 150%;
+        padding: 16px 20px
+    }
+
+    .cspt-navbar ul ul ul {
+        border-top: 0 none
+    }
+
+    .cspt-navbar ul ul li {
+        position: relative
+    }
+
+    .cspt-navbar ul li.last ul {
+        left: auto;
+        right: 0
+    }
+
+    .cspt-navbar ul li.last ul ul {
+        left: auto;
+        right: 99.5%
+    }
+
+    .cspt-navbar div>ul>li>a {
+        margin: 0 20px
+    }
+
+    .cspt-navbar.cspt-dropdown-active-color-globalcolor ul>li>ul>li.current-menu-item>a,
+    .cspt-navbar.cspt-dropdown-active-color-globalcolor ul>li>ul li.current_page_item>a,
+    .cspt-navbar.cspt-dropdown-active-color-globalcolor ul>li>ul li.current_page_ancestor>a,
+    .cspt-navbar.cspt-main-active-color-globalcolor>div>ul>li:hover>a,
+    .cspt-navbar.cspt-main-active-color-globalcolor>div>ul>li.current_page_item>a,
+    .cspt-navbar.cspt-main-active-color-globalcolor>div>ul>li.current-menu-parent>a {
+        color: var(--cspt-greenly-global-color)
+    }
+
+    .cspt-navbar.cspt-dropdown-active-color-white ul>li>ul>li.current-menu-item>a,
+    .cspt-navbar.cspt-dropdown-active-color-white ul>li>ul li.current_page_item>a,
+    .cspt-navbar.cspt-dropdown-active-color-white ul>li>ul li.current_page_ancestor>a,
+    .cspt-navbar.cspt-main-active-color-white>div>ul>li:hover>a,
+    .cspt-navbar.cspt-main-active-color-white>div>ul>li.current_page_item>a,
+    .cspt-navbar.cspt-main-active-color-white>div>ul>li.current-menu-parent>a {
+        color: var(--cspt-greenly-white-color)
+    }
+
+    .cspt-navbar.cspt-dropdown-active-color-blackish ul>li>ul>li.current-menu-item>a,
+    .cspt-navbar.cspt-dropdown-active-color-blackish ul>li>ul li.current_page_item>a,
+    .cspt-navbar.cspt-dropdown-active-color-blackish ul>li>ul li.current_page_ancestor>a,
+    .cspt-navbar.cspt-main-active-color-blackish>div>ul>li:hover>a,
+    .cspt-navbar.cspt-main-active-color-blackish>div>ul>li.current_page_item>a,
+    .cspt-navbar.cspt-main-active-color-blackish>div>ul>li.current-menu-parent>a {
+        color: var(--cspt-greenly-blackish-color)
+    }
+
+    .cspt-navbar.cspt-dropdown-active-color-secondarycolor ul>li>ul>li.current-menu-item>a,
+    .cspt-navbar.cspt-dropdown-active-color-secondarycolor ul>li>ul li.current_page_item>a,
+    .cspt-navbar.cspt-dropdown-active-color-secondarycolor ul>li>ul li.current_page_ancestor>a,
+    .cspt-navbar.cspt-main-active-color-secondarycolor>div>ul>li:hover>a,
+    .cspt-navbar.cspt-main-active-color-secondarycolor>div>ul>li.current_page_item>a,
+    .cspt-navbar.cspt-main-active-color-secondarycolor>div>ul>li.current-menu-parent>a {
+        color: var(--cspt-greenly-secondary-color)
+    }
+
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, -100%, 0)
+        }
+
+        100% {
+            opacity: 1;
+            transform: none
+        }
+    }
+
+    .fadeInDown {
+        animation-name: fadeInDown
+    }
+
+    .site-header .cspt-sticky-header {
+        position: fixed;
+        opacity: 0;
+        visibility: hidden;
+        background: #fff;
+        left: 0;
+        top: 0;
+        box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+        width: 100%;
+        z-index: 0;
+        transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -webkit-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease
+    }
+
+    .site-header.cspt-fixed-header .cspt-sticky-header {
+        z-index: 999;
+        opacity: 1;
+        visibility: visible;
+        -ms-animation-name: fadeInDown;
+        -moz-animation-name: fadeInDown;
+        -op-animation-name: fadeInDown;
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+        -ms-animation-duration: 300ms;
+        -moz-animation-duration: 300ms;
+        -op-animation-duration: 300ms;
+        -webkit-animation-duration: 300ms;
+        animation-duration: 300ms;
+        -ms-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+        -op-animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -ms-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -op-animation-iteration-count: 1;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1
+    }
+
+    .admin-bar .site-header .cspt-sticky-header {
+        top: 32px
+    }
+
+    .cspt-cart-wrapper {
+        margin-right: 5px
+    }
+
+    .cspt-cart-details {
+        position: relative
+    }
+
+    .cspt-cart-count {
+        background-color: #09162a;
+        color: #fff;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        line-height: 17px;
+        font-size: 11px;
+        text-align: center;
+        border-radius: 50%;
+        right: 6px;
+        top: -21px
+    }
+
+    .cspt-cart-wrapper .woocommerce-Price-amount {
+        font-weight: 700;
+        font-size: 13px
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .cspt-pre-header-wrapper {
+        display: none
+    }
+}
+
+@media screen and (min-width:992px) {
+    .site-footer .cspt-footer-widget.cspt-footer-widget-col-1 {
+        -ms-flex: 0 0 32%;
+        flex: 0 0 32%;
+        max-width: 32%
+    }
+
+    .site-footer .cspt-footer-widget.cspt-footer-widget-col-2 {
+        -ms-flex: 0 0 28%;
+        flex: 0 0 28%;
+        max-width: 28%
+    }
+
+    .site-footer .cspt-footer-widget.cspt-footer-widget-col-3 {
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%
+    }
+
+    .site-footer .cspt-footer-widget.cspt-footer-widget-col-4 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+}
+
+.cspt-bg-color-globalcolor.vc_column_container .vc_column-inner:before,
+.cspt-bg-color-globalcolor:before,
+.cspt-bg-color-globalcolor.cspt-bgimage-over-bgcolor,
+.cspt-bgimage-over-bgcolor.cspt-bgimage-yes.cspt-bg-color-globalcolor,
+.cspt-bg-color-globalcolor.vc_column_container.vc_column_container .vc_column-inner:before,
+.cspt-bg-color-globalcolor:not(.vc_column_container):not(.elementor-element):before,
+.cspt-extended-bg-col.cspt-bg-color-globalcolor:before {
+    background-color: var(--cspt-greenly-global-color)
+}
+
+.cspt-bgimage-yes.cspt-bg-color-globalcolor.vc_column_container .vc_column-inner:before,
+.cspt-bgimage-yes.cspt-bg-color-globalcolor:not(.vc_column_container):before,
+.cspt-bgimage-yes.cspt-extended-bg-col.cspt-bg-color-globalcolor:before,
+.vc_column_container.cspt-bg-color-globalcolor.cspt-bgimage-yes .cspt-stretched-div:before {
+    background-color: rgba(var(--cspt-greenly-gradient-color-rgb), .60)
+}
+
+.cspt-bgimage-over-bgcolor.cspt-bgimage-yes.cspt-bg-color-blackish,
+.cspt-bg-color-blackish.vc_column_container.vc_column_container .vc_column-inner:before,
+.cspt-bg-color-blackish:not(.vc_column_container):not(.elementor-element):before,
+.cspt-extended-bg-col.cspt-bg-color-blackish:before {
+    background-color: var(--cspt-greenly-blackish-color)
+}
+
+.cspt-bgimage-yes.cspt-bg-color-blackish.vc_column_container .vc_column-inner:before,
+.cspt-bgimage-yes.cspt-bg-color-blackish:not(.vc_column_container):before,
+.cspt-bgimage-yes.cspt-extended-bg-col.cspt-bg-color-blackish:before,
+.vc_column_container.cspt-bg-color-blackish.cspt-bgimage-yes .cspt-stretched-div:before {
+    background-color: rgba(var(--cspt-greenly-blackish-color-rgb), .60)
+}
+
+.cspt-bgimage-over-bgcolor.cspt-bgimage-yes.cspt-bg-color-light,
+.cspt-bg-color-light.vc_column_container.vc_column_container .vc_column-inner:before,
+.cspt-bg-color-light:not(.vc_column_container):not(.elementor-element):before,
+.cspt-extended-bg-col.cspt-bg-color-light:before {
+    background-color: var(--cspt-greenly-light-bg-color)
+}
+
+.cspt-bgimage-yes.cspt-bg-color-light.vc_column_container .vc_column-inner:before,
+.cspt-bgimage-yes.cspt-bg-color-light:not(.vc_column_container):before,
+.cspt-bgimage-yes.cspt-extended-bg-col.cspt-bg-color-light:before,
+.vc_column_container.cspt-bg-color-light.cspt-bgimage-yes .cspt-stretched-div:before {
+    background: rgba(var(--cspt-greenly-light-bg-color-rgb), .60)
+}
+
+.cspt-bgimage-over-bgcolor.cspt-bgimage-yes.cspt-bg-color-white,
+.cspt-bg-color-white.vc_column_container.vc_column_container .vc_column-inner:before,
+.cspt-bg-color-white:not(.vc_column_container):not(.elementor-element):before,
+.cspt-extended-bg-col.cspt-bg-color-white:before {
+    background-color: var(--cspt-greenly-white-color)
+}
+
+.cspt-bgimage-yes.cspt-bg-color-white.vc_column_container .vc_column-inner:before,
+.cspt-bgimage-yes.cspt-bg-color-white:not(.vc_column_container):before,
+.cspt-bgimage-yes.cspt-extended-bg-col.cspt-bg-color-white:before,
+.vc_column_container.cspt-bg-color-white.cspt-bgimage-yes .cspt-stretched-div:before {
+    background-color: rgba(var(--cspt-greenly-white-color-rgb), .60)
+}
+
+.cspt-bgimage-over-bgcolor.cspt-bgimage-yes.cspt-bg-color-secondarycolor,
+.cspt-bg-color-secondarycolor.vc_column_container.vc_column_container .vc_column-inner:before,
+.cspt-bg-color-secondarycolor:not(.vc_column_container):not(.elementor-element):before,
+.cspt-extended-bg-col.cspt-bg-color-secondarycolor:before {
+    background-color: var(--cspt-greenly-secondary-color)
+}
+
+.cspt-bgimage-yes.cspt-bg-color-secondarycolor.vc_column_container .vc_column-inner:before,
+.cspt-bgimage-yes.cspt-bg-color-secondarycolor:not(.vc_column_container):before,
+.cspt-bgimage-yes.cspt-extended-bg-col.cspt-bg-color-secondarycolor:before,
+.vc_column_container.cspt-bg-color-secondarycolor.cspt-bgimage-yes .cspt-stretched-div:before {
+    background-color: rgba(var(--cspt-greenly-secondary-color-rgb), .60)
+}
+
+.cspt-bg-color-gradientcolor.cspt-bgimage-over-bgcolor,
+.cspt-bg-color-gradientcolor.vc_column_container .vc_column-inner:before,
+.cspt-bg-color-gradientcolor:not(.vc_column_container):before,
+.cspt-extended-bg-col.cspt-bg-color-gradientcolor:before {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last))
+}
+
+.vc_column_container.cspt-bg-color-gradientcolor.cspt-bgimage-yes .cspt-stretched-div:before,
+.cspt-bgimage-over-bgcolor.cspt-bgimage-yes.cspt-bg-color-gradientcolor,
+.cspt-stretched-div.cspt-bg-color-gradientcolor:before,
+.cspt-bg-color-gradientcolor:before,
+.vc_row.cspt-bg-color-gradientcolor:before {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last))
+}
+
+.vc_column_container.cspt-bg-color-gradientcolor.cspt-bgimage-yes .cspt-stretched-div:before,
+.cspt-bgimage-yes .cspt-stretched-div.cspt-bg-color-gradientcolor:before,
+.cspt-row.cspt-bg-color-gradientcolor.cspt-bgimage-yes:before {
+    opacity: .5
+}
+
+.cspt-col-stretched-yes .cspt-stretched-div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: auto;
+    z-index: 1;
+    overflow: hidden
+}
+
+.cspt-col-stretched-right .cspt-stretched-div,
+.cspt-col-stretched-left .cspt-stretched-div {
+    right: 0
+}
+
+.elementor-section.elementor-top-section.cspt-bg-image-over-color.cspt-bgimage-yes:before,
+.elementor-column.elementor-top-column.cspt-bgimage-yes.cspt-bg-image-over-color>.cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-bg-image-over-color>.elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.cspt-bg-image-over-color>.elementor-column-wrap:before {
+    background-color: transparent !important
+}
+
+.elementor-column.cspt-col-stretched-yes.cspt-bgimage-yes {
+    background-image: none;
+    background-color: transparent
+}
+
+.cspt-bgimage-over-bgcolor.cspt-bgimage-yes .cspt-stretched-div:before,
+.cspt-bgimage-over-bgcolor.cspt-bgimage-yes:before {
+    background-color: transparent !important
+}
+
+.elementor-top-section:before,
+.cspt-col-stretched-yes .cspt-stretched-div:before,
+.elementor-column.elementor-top-column .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column .elementor-column-wrap:before,
+.elementor-inner-column>div:before,
+.elementor-inner-section:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    z-index: 1
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-globalcolor,
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-globalcolor:before,
+.elementor-section.elementor-inner-section.cspt-elementor-bg-color-globalcolor {
+    background-color: var(--cspt-greenly-global-color)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-globalcolor.cspt-bgimage-yes:before {
+    background-color: rgba(var(--cspt-greenly-global-color-rgb), .60)
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor:not(.cspt-bgimage-yes) .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor.cspt-bg-image-over-color .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor:not(.cspt-bgimage-yes) .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor.cspt-bg-image-over-color .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor:not(.cspt-col-stretched-yes)>.elementor-column-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-column-wrap {
+    background-color: var(--cspt-greenly-global-color) !important
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-widget-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor .elementor-widget-wrap .cspt-bgimage-yes.cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-column-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-column-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-globalcolor .elementor-column-wrap .cspt-bgimage-yes.cspt-stretched-div:before {
+    background-color: rgba(var(--cspt-greenly-global-color-rgb), .60)
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-globalcolor {
+    background-color: var(--cspt-greenly-global-color) !important
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-globalcolor:not(.cspt-bg-image-over-color):before {
+    background-color: rgba(var(--cspt-greenly-global-color-rgb), .60)
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-globalcolor>div.elementor-column-wrap,
+.elementor-inner-column.cspt-elementor-bg-color-globalcolor>div.elementor-widget-wrap {
+    background-color: var(--cspt-greenly-global-color) !important
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-globalcolor:not(.cspt-bg-image-over-color)>div.elementor-column-wrap:before,
+.elementor-inner-column.cspt-elementor-bg-color-globalcolor:not(.cspt-bg-image-over-color)>div.elementor-widget-wrap:before {
+    background-color: rgba(var(--cspt-greenly-global-color-rgb), .60)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-light,
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-light:before,
+.elementor-section.elementor-inner-section.cspt-elementor-bg-color-light {
+    background-color: var(--cspt-greenly-light-bg-color)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-light.cspt-bgimage-yes:before {
+    background-color: rgba(var(--cspt-greenly-light-bg-color-rgb), .60)
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light:not(.cspt-bgimage-yes) .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light.cspt-bg-image-over-color .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light:not(.cspt-bgimage-yes) .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light.cspt-bg-image-over-color .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light:not(.cspt-col-stretched-yes)>.elementor-column-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-column-wrap {
+    background-color: var(--cspt-greenly-light-bg-color) !important
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-widget-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light .elementor-widget-wrap .cspt-bgimage-yes.cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-column-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-column-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-light .elementor-column-wrap .cspt-bgimage-yes.cspt-stretched-div:before {
+    background-color: rgba(var(--cspt-greenly-light-bg-color-rgb), .60)
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-light {
+    background-color: var(--cspt-greenly-light-bg-color) !important
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-light:not(.cspt-bg-image-over-color):before {
+    background-color: rgba(var(--cspt-greenly-light-bg-color-rgb), .60)
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-light>div.elementor-column-wrap,
+.elementor-inner-column.cspt-elementor-bg-color-light>div.elementor-widget-wrap {
+    background-color: var(--cspt-greenly-light-bg-color) !important
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-light:not(.cspt-bg-image-over-color)>div.elementor-column-wrap:before,
+.elementor-inner-column.cspt-elementor-bg-color-light:not(.cspt-bg-image-over-color)>div.elementor-widget-wrap:before {
+    background-color: rgba(var(--cspt-greenly-light-bg-color-rgb), .60)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-secondary,
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-secondary:before,
+.elementor-section.elementor-inner-section.cspt-elementor-bg-color-secondary {
+    background-color: var(--cspt-greenly-secondary-color)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-secondary.cspt-bgimage-yes:before {
+    background-color: rgba(var(--cspt-greenly-secondary-color-rgb), .60)
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary:not(.cspt-bgimage-yes) .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary.cspt-bg-image-over-color .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary:not(.cspt-bgimage-yes) .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary.cspt-bg-image-over-color .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary:not(.cspt-col-stretched-yes)>.elementor-column-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-column-wrap {
+    background-color: var(--cspt-greenly-secondary-color) !important
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-widget-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary .elementor-widget-wrap .cspt-bgimage-yes.cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-column-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-column-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-secondary .elementor-column-wrap .cspt-bgimage-yes.cspt-stretched-div:before {
+    background-color: rgba(var(--cspt-greenly-secondary-color-rgb), .60)
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-secondary {
+    background-color: var(--cspt-greenly-secondary-color) !important
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-secondary:not(.cspt-bg-image-over-color):before {
+    background-color: rgba(var(--cspt-greenly-secondary-color-rgb), .60)
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-secondary>div.elementor-column-wrap,
+.elementor-inner-column.cspt-elementor-bg-color-secondary>div.elementor-widget-wrap {
+    background-color: var(--cspt-greenly-secondary-color) !important
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-secondary:not(.cspt-bg-image-over-color)>div.elementor-column-wrap:before,
+.elementor-inner-column.cspt-elementor-bg-color-secondary:not(.cspt-bg-image-over-color)>div.elementor-widget-wrap:before {
+    background-color: rgba(var(--cspt-greenly-secondary-color-rgb), .60)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-blackish,
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-blackish:before,
+.elementor-section.elementor-inner-section.cspt-elementor-bg-color-blackish {
+    background-color: var(--cspt-greenly-blackish-color)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-blackish.cspt-bgimage-yes:before {
+    background-color: rgba(var(--cspt-greenly-blackish-color-rgb), .60)
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish:not(.cspt-bgimage-yes) .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish.cspt-bg-image-over-color .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish:not(.cspt-bgimage-yes) .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish.cspt-bg-image-over-color .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish:not(.cspt-col-stretched-yes)>.elementor-column-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-column-wrap {
+    background-color: var(--cspt-greenly-blackish-color) !important
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-widget-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish .elementor-widget-wrap .cspt-bgimage-yes.cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-column-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-column-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-blackish .elementor-column-wrap .cspt-bgimage-yes.cspt-stretched-div:before {
+    background-color: rgba(var(--cspt-greenly-blackish-color-rgb), .60)
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-blackish {
+    background-color: var(--cspt-greenly-blackish-color) !important
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-blackish:not(.cspt-bg-image-over-color):before {
+    background-color: rgba(var(--cspt-greenly-blackish-color-rgb), .60)
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-blackish>div.elementor-column-wrap,
+.elementor-inner-column.cspt-elementor-bg-color-blackish>div.elementor-widget-wrap {
+    background-color: var(--cspt-greenly-blackish-color) !important
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-blackish:not(.cspt-bg-image-over-color)>div.elementor-column-wrap:before,
+.elementor-inner-column.cspt-elementor-bg-color-blackish:not(.cspt-bg-image-over-color)>div.elementor-widget-wrap:before {
+    background-color: rgba(var(--cspt-greenly-blackish-color-rgb), .60)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-white,
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-white:before,
+.elementor-section.elementor-inner-section.cspt-elementor-bg-color-white {
+    background-color: var(--cspt-greenly-white-color)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-white.cspt-bgimage-yes:before {
+    background-color: rgba(var(--cspt-greenly-white-color-rgb), .60)
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white:not(.cspt-bgimage-yes) .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white.cspt-bg-image-over-color .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white:not(.cspt-bgimage-yes) .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white.cspt-bg-image-over-color .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white:not(.cspt-col-stretched-yes)>.elementor-column-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-column-wrap {
+    background-color: var(--cspt-greenly-white-color) !important
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-widget-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white .elementor-widget-wrap .cspt-bgimage-yes.cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-column-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-column-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-white .elementor-column-wrap .cspt-bgimage-yes.cspt-stretched-div:before {
+    background-color: rgba(var(--cspt-greenly-white-color-rgb), .60)
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-white {
+    background-color: var(--cspt-greenly-white-color) !important
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-white:not(.cspt-bg-image-over-color):before {
+    background-color: rgba(var(--cspt-greenly-white-color-rgb), .60)
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-white>div.elementor-column-wrap,
+.elementor-inner-column.cspt-elementor-bg-color-white>div.elementor-widget-wrap {
+    background-color: var(--cspt-greenly-white-color) !important
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-white:not(.cspt-bg-image-over-color)>div.elementor-column-wrap:before,
+.elementor-inner-column.cspt-elementor-bg-color-white:not(.cspt-bg-image-over-color)>div.elementor-widget-wrap:before {
+    background-color: rgba(var(--cspt-greenly-white-color-rgb), .60)
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-gradient,
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-gradient:before,
+.elementor-section.elementor-inner-section.cspt-elementor-bg-color-gradient {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last))
+}
+
+.elementor-section.elementor-top-section.cspt-elementor-bg-color-gradient.cspt-bgimage-yes:before {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last));
+    opacity: .5
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient:not(.cspt-bgimage-yes) .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient.cspt-bg-image-over-color .elementor-widget-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-widget-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient:not(.cspt-bgimage-yes) .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient.cspt-bg-image-over-color .elementor-column-wrap>.cspt-stretched-div,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient:not(.cspt-col-stretched-yes)>.elementor-column-wrap,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient.cspt-bg-image-over-color:not(.cspt-col-stretched-yes)>.elementor-column-wrap {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last))
+}
+
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-widget-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient .elementor-widget-wrap .cspt-bgimage-yes.cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient.cspt-bgimage-yes:not(.cspt-col-stretched-yes)>.elementor-column-wrap:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient.cspt-bgimage-yes:not(.cspt-bg-image-over-color) .elementor-column-wrap .cspt-stretched-div:before,
+.elementor-column.elementor-top-column.cspt-elementor-bg-color-gradient .elementor-column-wrap .cspt-bgimage-yes.cspt-stretched-div:before {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 80%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last));
+    opacity: .5
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-gradient {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last))
+}
+
+.elementor-inner-section.cspt-elementor-bg-color-gradient:not(.cspt-bg-image-over-color):before {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last));
+    opacity: .5
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-gradient>div.elementor-column-wrap,
+.elementor-inner-column.cspt-elementor-bg-color-gradient>div.elementor-widget-wrap {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last))
+}
+
+.elementor-inner-column.cspt-elementor-bg-color-gradient:not(.cspt-bg-image-over-color)>div.elementor-column-wrap:before,
+.elementor-inner-column.cspt-elementor-bg-color-gradient:not(.cspt-bg-image-over-color)>div.elementor-widget-wrap:before {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last))
+}
+
+.cspt-btn-style-flat.cspt-btn-color-blackish .elementor-button:hover,
+.cspt-btn-style-flat.cspt-btn-color-globalcolor .elementor-button,
+.cspt-bg-color-globalcolor {
+    background-color: var(--cspt-greenly-global-color)
+}
+
+.cspt-btn-style-text.cspt-btn-color-globalcolor .elementor-button {
+    color: var(--cspt-greenly-global-color)
+}
+
+.cspt-btn-style-flat.cspt-btn-color-light .elementor-button,
+.cspt-bg-color-light {
+    background-color: var(--cspt-greenly-light-bg-color)
+}
+
+.cspt-btn-style-text.cspt-btn-color-blackish .elementor-button {
+    color: var(--cspt-greenly-light-bg-color)
+}
+
+.cspt-btn-style-outline.cspt-btn-color-light .elementor-button {
+    border-color: var(--cspt-greenly-light-bg-color);
+    color: var(--cspt-greenly-light-bg-color)
+}
+
+.cspt-btn-color-secondary.cspt-btn-style-flat .elementor-button,
+.vc_general.vc_btn3.vc_btn3-color-secondarycolor,
+.elementor-widget-button.cspt-btn-bg-color-secondary .elementor-button,
+.cspt-bg-color-secondary {
+    background-color: var(--cspt-greenly-secondary-color)
+}
+
+.cspt-color-secondarycolor,
+.cspt-footer-style-2 .cspt-contact-widget-line:before,
+.cspt-heading-subheading em,
+.cspt-ihbox-heading em,
+.cspt-btn-style-text.cspt-btn-color-secondary .elementor-button {
+    color: var(--cspt-greenly-secondary-color)
+}
+
+.cspt-btn-style-outline.cspt-btn-color-secondary .elementor-button {
+    border-color: var(--cspt-greenly-secondary-color);
+    color: var(--cspt-greenly-secondary-color)
+}
+
+.cspt-btn-color-blackish.cspt-btn-style-text .elementor-button:after,
+.vc_general.vc_btn3.vc_btn3-color-secondarycolor:hover,
+.vc_general.vc_btn3.vc_btn3-style-simple.vc_btn3-shape-square.vc_btn3-color-black:after,
+.vc_btn3.vc_btn3-color-black.vc_btn3-style-modern,
+.cspt-shadow-btn .vc_btn3-color-globalcolor.vc_general.vc_btn3.vc_btn3-style-modern:hover,
+.cspt-btn-color-secondary.cspt-btn-style-flat .elementor-button:hover,
+.cspt-btn-color-light.cspt-btn-style-outline.elementor-widget-button .elementor-button:hover,
+.cspt-btn-style-flat.cspt-btn-color-globalcolor .elementor-button:hover,
+.cspt-btn-style-flat.cspt-btn-color-white .elementor-button:hover,
+.cspt-btn-style-flat.cspt-btn-color-blackish .elementor-button,
+.cspt-bg-color-blackish {
+    background-color: var(--cspt-greenly-blackish-color)
+}
+
+.vc_general.vc_btn3.vc_btn3-style-simple.vc_btn3-shape-square.vc_btn3-color-black,
+.test {
+    color: var(--cspt-greenly-blackish-color)
+}
+
+.cspt-bg-color-white,
+.cspt-footer-section.cspt-bg-color-white:before {
+    background-color: var(--cspt-greenly-white-color)
+}
+
+.cspt-btn-color-light.cspt-btn-style-outline.elementor-widget-button .elementor-button:hover,
+.cspt-btn-style-flat.cspt-btn-color-white .elementor-button:hover {
+    color: var(--cspt-greenly-white-color)
+}
+
+.elementor-widget-button.cspt-btn-color-gradient .elementor-button,
+.cspt-bg-color-gradient {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%);
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last))
+}
+
+.cspt-footer-section.cspt-bg-color-gradientcolor:before {
+    background-image: -ms-linear-gradient(right, var(--cspt-greenly-gradient-color-first) 0, var(--cspt-greenly-gradient-color-last) 100%) !important;
+    background-image: linear-gradient(to right, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last)) !important
+}
+
+.elementor-widget-button.cspt-btn-color-gradient .elementor-button {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, var(--cspt-greenly-gradient-color-first), var(--cspt-greenly-gradient-color-last))
+}
+
+.cspt-full-btn .elementor-button i,
+.cspt-ihbox-btn a:after,
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--cspt-greenly-global-color)
+}
+
+body .elementor-widget-accordion .elementor-accordion .elementor-tab-title.elementor-active {
+    background-color: var(--cspt-greenly-global-color) !important
+}
+
+.cspt-lightbox-video .elementor-icon-wrapper a,
+.elementor-widget .elementor-icon-list-icon,
+.cspt-btn-style-outline .elementor-button {
+    color: var(--cspt-greenly-global-color)
+}
+
+.cspt-btn-style-outline .elementor-button {
+    border-color: var(--cspt-greenly-global-color)
+}
+
+.cspt-brdr-btm-effect {
+    border-bottom-color: var(--cspt-greenly-global-color)
+}
+
+.test {
+    background-color: var(--cspt-greenly-light-bg-color)
+}
+
+.test {
+    background-color: var(--cspt-greenly-secondary-color)
+}
+
+.test {
+    background-color: var(--cspt-greenly-blackish-color)
+}
+
+.cspt-btn-style-outline.cspt-btn-color-white .elementor-button:hover,
+.cspt-btn-style-text.cspt-btn-color-blackish .elementor-button,
+.cspt-btn-style-flat.cspt-btn-color-light .elementor-button,
+.cspt-btn-style-flat.cspt-btn-color-white .elementor-button,
+.elementor-widget-progress .elementor-title,
+.elementor-progress-percentage {
+    color: var(--cspt-greenly-blackish-color)
+}
+
+.cspt-btn-style-outline.cspt-btn-color-blackish .elementor-button {
+    border-color: var(--cspt-greenly-blackish-bg-color);
+    color: var(--cspt-greenly-blackish-bg-color)
+}
+
+.cspt-shadow-btn.cspt-btn-color-secondary .elementor-button,
+.vc_general.vc_btn3.vc_btn3-color-secondarycolor {
+    box-shadow: 0 0 23.25px 1.75px rgba(var(--cspt-greenly-secondary-color-rgb), .30)
+}
+
+.cspt-shadow-btn.cspt-btn-color-secondary .elementor-button:hover,
+.cspt-shadow-btn.cspt-btn-color-blackish .elementor-button,
+.cspt-shadow-btn.cspt-btn-color-globalcolor .elementor-button:hover,
+.cspt-shadow-btn .vc_general.vc_btn3.vc_btn3-color-secondarycolor:hover,
+.cspt-shadow-btn .vc_btn3.vc_btn3-color-black.vc_btn3-style-modern,
+.cspt-shadow-btn .vc_btn3-color-globalcolor.vc_general.vc_btn3.vc_btn3-style-modern:hover {
+    box-shadow: 0 0 23.25px 1.75px rgba(var(--cspt-greenly-blackish-color-rgb), .30)
+}
+
+.cspt-shadow-btn.cspt-btn-color-blackish .elementor-button:hover,
+.cspt-shadow-btn.cspt-btn-color-globalcolor .elementor-button,
+.cspt-shadow-btn .vc_btn3.vc_btn3-color-black.vc_btn3-style-modern:hover,
+.cspt-shadow-btn .vc_btn3-color-globalcolor.vc_general.vc_btn3.vc_btn3-style-modern {
+    box-shadow: 0 0 23.25px 1.75px rgba(var(--cspt-greenly-global-color-rgb), .30)
+}
+
+.test {
+    background-color: var(--cspt-greenly-white-color)
+}
