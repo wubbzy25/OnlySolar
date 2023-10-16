@@ -424,7 +424,11 @@ a:where(:not(.wp-element-button)) {
 }
 
 .google {
-  position: relative;
-  left: 44%;
   width: 250px;
+  position: relative;
+
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+@media screen {}
